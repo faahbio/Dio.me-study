@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Asas de Luz - Contato</title>
+    <link rel="stylesheet" href="base.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Butterfly+Kids&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Hamburger Menu Button (Mobile Only) -->
+      <button class="hamburger-btn" aria-label="Toggle menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <div class="menu" id="menu">
+        <!-- Menu do site (Lateral esquerda) -->
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="horarios.html">Horários</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <div class="header-content">
+            <h1 class="clinic-name">Clínica Asas de Luz</h1>
+            <p class="tagline">Cuidado especializado para borboletas</p>
+
+            <div class="header-info">
+              <div class="contact-info">
+                <span class="phone">📞 (11) 1234-5678</span>
+              </div>
+              <div class="business-hours">
+                <span class="hours"
+                  >🕒 Segunda a Sexta: 8h às 18h | Sábado: 8h às 12h</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <!-- Seção Principal Contato -->
+          <section class="hero-section">
+            <h1>Entre em Contato Conosco</h1>
+            <p>
+              Estamos aqui para cuidar das suas borboletas com dedicação e
+              carinho. Nossa equipe especializada está sempre pronta para
+              atender suas necessidades e esclarecer suas dúvidas.
+            </p>
+          </section>
+
+          <!-- Informações de Contato -->
+          <section class="contact-info-section">
+            <h2>📞 Informações de Contato</h2>
+            <div class="contact-grid">
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <h3>Telefone Principal</h3>
+                <p>(11) 1234-5678</p>
+                <span class="contact-detail"
+                  >Atendimento geral e agendamentos</span
+                >
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🚨</div>
+                <h3>Emergências 24h</h3>
+                <p>(11) 9999-0000</p>
+                <span class="contact-detail"
+                  >Plantão veterinário especializado</span
+                >
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <h3>E-mail</h3>
+                <p>contato@asasdeluz.com.br</p>
+                <span class="contact-detail">Dúvidas e informações gerais</span>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <h3>WhatsApp</h3>
+                <p>(11) 98765-4321</p>
+                <span class="contact-detail"
+                  >Atendimento rápido e consultas</span
+                >
+              </div>
+            </div>
+          </section>
+
+          <!-- Localização -->
+          <section class="location-section">
+            <h2>📍 Nossa Localização</h2>
+            <div class="location-content">
+              <div class="address-info">
+                <div class="address-card">
+                  <h3>🏥 Endereço da Clínica</h3>
+                  <p><strong>Rua das Borboletas, 123</strong></p>
+                  <p>Jardim das Flores</p>
+                  <p>São Paulo - SP</p>
+                  <p>CEP: 01234-567</p>
+                </div>
+                <div class="transport-info">
+                  <h4>🚗 Como Chegar</h4>
+                  <ul>
+                    <li>
+                      <strong>De carro:</strong> Estacionamento gratuito no
+                      local
+                    </li>
+                    <li>
+                      <strong>Metrô:</strong> Estação Jardim Botânico (300m)
+                    </li>
+                    <li><strong>Ônibus:</strong> Linhas 123, 456 e 789</li>
+                    <li>
+                      <strong>Uber/Taxi:</strong> Acesso fácil pela Av. das
+                      Flores
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="map-placeholder">
+                <div class="map-visual">
+                  <span class="map-icon">🗺️</span>
+                  <p>Mapa Interativo</p>
+                  <span class="map-text"
+                    >Localização da Clínica Asas de Luz</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Formulário de Contato -->
+          <section class="contact-form-section">
+            <h2>✉️ Envie sua Mensagem</h2>
+            <div class="form-container">
+              <form class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" />
+                  </div>
+                  <div class="form-group">
+                    <label for="service">Tipo de Serviço</label>
+                    <select id="service" name="service">
+                      <option value="">Selecione...</option>
+                      <option value="consulta">Consulta Geral</option>
+                      <option value="emergencia">Emergência</option>
+                      <option value="cirurgia">Cirurgia</option>
+                      <option value="nutricao">Nutrição</option>
+                      <option value="psicologia">Psicologia</option>
+                      <option value="informacoes">Informações Gerais</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="butterfly-species">Espécie da Borboleta</label>
+                  <input
+                    type="text"
+                    id="butterfly-species"
+                    name="butterfly-species"
+                    placeholder="Ex: Monarca, Morpho Azul, etc."
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensagem</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Descreva sua dúvida ou necessidade..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                  <input type="checkbox" id="newsletter" name="newsletter" />
+                  <label for="newsletter"
+                    >Desejo receber newsletter com dicas de cuidados</label
+                  >
+                </div>
+                <button type="submit" class="submit-btn">
+                  Enviar Mensagem 🦋
+                </button>
+              </form>
+            </div>
+          </section>
+
+          <!-- FAQ Rápido -->
+          <section class="faq-section">
+            <h2>❓ Perguntas Frequentes</h2>
+            <div class="faq-grid">
+              <div class="faq-item">
+                <h4>Como agendar uma consulta?</h4>
+                <p>
+                  Ligue para (11) 1234-5678 ou envie WhatsApp para (11)
+                  98765-4321. Nosso atendimento é de segunda a sexta, das 8h às
+                  18h.
+                </p>
+              </div>
+              <div class="faq-item">
+                <h4>Atendem emergências?</h4>
+                <p>
+                  Sim! Temos plantão 24h para emergências. Ligue para (11)
+                  9999-0000 para atendimento imediato.
+                </p>
+              </div>
+              <div class="faq-item">
+                <h4>Quais documentos preciso trazer?</h4>
+                <p>
+                  Traga histórico médico da borboleta (se houver) e documento de
+                  identificação do responsável.
+                </p>
+              </div>
+              <div class="faq-item">
+                <h4>Fazem visitas domiciliares?</h4>
+                <p>
+                  Sim, para casos especiais e borboletas com dificuldades de
+                  locomoção. Entre em contato para mais informações.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="footer">
+          <!-- Rodapé do site -->
+          <h3>Clínica Asas de Luz</h3>
+          <p>Rua das Borboletas, 123 - Jardim das Flores</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Hamburger menu toggle functionality
+      const hamburgerBtn = document.querySelector(".hamburger-btn");
+      const menu = document.querySelector("#menu");
+
+      hamburgerBtn.addEventListener("click", function () {
+        hamburgerBtn.classList.toggle("active");
+        menu.classList.toggle("active");
+      });
+
+      // Close menu when clicking on a menu item (mobile)
+      const menuLinks = document.querySelectorAll(".menu a");
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburgerBtn.classList.remove("active");
+          menu.classList.remove("active");
+        });
+      });
+
+      // Close menu when clicking outside (mobile)
+      document.addEventListener("click", function (e) {
+        if (!menu.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+          hamburgerBtn.classList.remove("active");
+          menu.classList.remove("active");
+        }
+      });
+
+      // Formulário de contato
+      document
+        .querySelector(".contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Mensagem enviada com sucesso! Entraremos em contato em breve. 🦋"
+          );
+        });
+    </script>
+  </body>
+</html>
